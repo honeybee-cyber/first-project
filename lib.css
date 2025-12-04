@@ -1,0 +1,36 @@
+body {
+ margin: 0%;
+ height: 100vb;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ background-image:url('back4.jfif') ;
+ background-size: cover;
+}
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#about {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px; 
+    margin: 20px auto; 
+}
+
+#about h2 {
+    color: #4CAF50; 
+}
+
+#about p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+html{
+    scroll-behavior: smooth;
+}
